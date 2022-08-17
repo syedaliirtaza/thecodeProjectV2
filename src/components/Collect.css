@@ -1,0 +1,83 @@
+.collectContainer{
+    /* mt-[9em] font-ocr text-[#7DF842] text-[17px] w-[70%] sm:w-3/5  */
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  color: #7DF842;
+  text-align: center;
+  font-family: 'ocr';
+  font-size: 17px;
+  font-weight: 800;
+  width: 100%;
+}
+.collectDivider{
+    padding: 6em;
+}
+.collectContainer .collectHeading{
+    /* text-white text-3xl text-center mt-8 */
+    color: white;
+    /* margin-top: 4em; */
+}
+.collectParaOne{
+    width: 60%;
+}
+.collectParaTwo{
+    margin-left: 150px;
+    text-align: start;
+}
+.collectParaTwoText{
+    line-height: 2em;
+    word-spacing: 3px;
+    /* margin-top: 2em; */
+    text-align: center;
+}
+/* tracking-[3px] leading-[2em] mt-[2em] sm:ml-[4em] */
+.twoText{
+    line-height: 2em;
+    word-spacing: 3px;
+    margin-top: 2em;
+}
+
+.end{
+    margin-bottom: 8em;
+}
+@media (max-width: 1480px) {
+    .collectParaOne{
+        width: 70%;
+    }
+    .collectParaTwo{
+        margin-left: 130px;
+        text-align: start;
+    }
+    
+}
+@media (max-width: 780px) {
+    .collectParaOne{
+        width: 60%;
+    }
+    .collectParaTwo{
+        margin-left: -10px;
+        text-align: start;
+    }
+    .collectContainer .collectHeading{
+        /* text-white text-3xl text-center mt-8 */
+        font-size: 25px;
+    }
+    
+}
+@media (max-width: 480px) {
+    .collectParaOne{
+        width: 70%;
+    }
+    .collectParaTwo{
+        text-align: start;
+        width: 70%;
+    }
+    .collectContainer .collectHeading{
+        /* text-white text-3xl text-center mt-8 */
+        font-size: 20px;
+    }
+    
+}

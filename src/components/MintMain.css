@@ -1,0 +1,43 @@
+.mintMainContainer{
+    /* font-ocr h-[38em] w-full flex flex-col justify-center items-center */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    color: #7DF842;
+    font-family: 'ocr';
+    font-size: 17px;
+    font-weight: 800;
+}
+.mintMainPrice{
+    /* mb-[1em] */
+    margin-bottom: 1em;
+}
+.mintMainPriceText{
+    /* text-[4em] sm:text-[6em] */
+    font-size: 4em;
+}
+.mintAddress{
+    /* text-[4em] sm:text-[6em] */
+    font-size: 1em;
+}
+.mintSmall{
+    /* text-[4em] sm:text-[6em] */
+}
+.mintButton{
+    /* connect border p-3 rounded-xl hover:text-black hover:bg-white cursor-pointer */
+    border: 1px solid white;
+    padding: 0.3em;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+@media (max-width: 780px) {
+    .mintMainPriceText{
+        /* text-[4em] sm:text-[6em] */
+        font-size: 2em;
+    }
+}
+@media (max-width: 480px) {
+    
+}

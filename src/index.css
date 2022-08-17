@@ -1,0 +1,75 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+      @apply bg-black text-gray-300; 
+  }
+  @font-face {
+    font-family: "OCR";
+    src: url("/public/fonts/OCR-A.woff2") format("woff2");
+    font-weight: 800;
+  }
+  @font-face {
+    font-family: "OCRA";
+    src: url("/public/fonts/ocr-aregular-1.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  td {
+    @apply border-r-2 border-[#454545]
+  }
+  tr {
+    @apply border-b-2 border-[#454545]
+  }
+  tbody {
+    @apply text-center
+  }
+  table {
+    @apply border-2 border-[#454545] w-full
+  }
+  span {
+    @apply text-white
+  }
+} */
+
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+}
+@font-face{
+  font-family: "OCR";
+  src: url("/src/font/OCR-A.woff2") format("woff2");
+  font-weight: 800;
+}
+@font-face {
+    font-family: "OCRA";
+    src: url("/src/font/ocr-aregular-1.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  th{
+    border-top: 1px solid #454545;
+    border-left: 1px solid #454545;
+  }
+  td {
+    /* @apply border-[#454545] ; */
+    border-left: 1px solid #454545;
+    border-top: 1px solid #454545;
+  }
+  tr {
+    border-top: 1px solid #454545;
+  }
+  tbody {
+    text-align: center;
+  }
+  table {
+    width: 100%;
+    /* border-top: 1px solid #454545; */
+    border-bottom: 1px solid #454545;
+    border-right: 1px solid #454545;
+  }

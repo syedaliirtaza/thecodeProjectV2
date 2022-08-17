@@ -1,0 +1,24 @@
+.footerContainer{
+    /* flex flex-col sm:flex-row justify-around items-center h-28 */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 28px;
+}
+.footerContainer .text{
+    font-size: 17px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 780px) {
+    .footerContainer .text{
+        font-size: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .footerContainer .text{
+        font-size: 12px;
+    }
+}

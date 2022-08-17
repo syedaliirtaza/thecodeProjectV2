@@ -1,0 +1,75 @@
+.cardborder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* max-width: 60%; */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    overflow: hidden;
+    margin:  5em;
+    cursor: pointer;
+}
+.align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardButtonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bbb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardButton{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 5px; */
+    /* margin-top: 5px;
+    margin-Bottom: 10px;
+    margin-left: 10px; */
+}
+.cardButton p{
+    background-color: transparent;
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px;
+}
+.cardButton p:hover{
+   color: black;
+   background-color: white;
+}
+/* .cardImage{
+    width: 300px;
+    overflow: hidden;
+} */
+.cardImage img{
+    background-position: center;
+    object-fit: contain;
+    width: 300px;
+}
+@media (max-width:780px) {
+    .align{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

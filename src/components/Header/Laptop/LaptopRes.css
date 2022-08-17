@@ -1,0 +1,23 @@
+.headerContainer_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 100%;
+    font-family: 'ocr';
+}
+.headerContainer_items .items{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #7DF842;
+}
+.items a{
+    color: #7DF842;
+    text-decoration: none;
+}
+.headerContainer_items .items:hover{
+    cursor: pointer;
+    font-family: 'ocr';
+    color: white;
+}

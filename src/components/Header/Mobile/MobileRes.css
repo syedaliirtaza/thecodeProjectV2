@@ -1,0 +1,32 @@
+svg{
+    color: white;
+}
+.mobileHeaderContainer_items{
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    background-color: black;
+    width: 60%;
+    height: 100%;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    font-family: 'ocr';
+}
+.mobileHeaderContainer_items .mobileItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 25px;
+    color: #7DF842;
+}
+.mobileItems a{
+    color: #7DF842;
+    text-decoration: none;
+}
+.mobileHeaderContainer_items .mobileItems:hover{
+    color: white;
+}
+
+

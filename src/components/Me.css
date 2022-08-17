@@ -1,0 +1,82 @@
+.meContainer{
+    /* mt-[9em] font-ocr text-[#7DF842] text-[17px] w-[70%] sm:w-3/5  */
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  color: #7DF842;
+  text-align: center;
+  font-family: 'ocr';
+  font-size: 17px;
+  font-weight: 800;
+  width: 100%;
+}
+.meDivider{
+    padding: 3em;
+}
+.meContainer .heading{
+    /* text-white text-3xl text-center mt-8 */
+    color: white;
+    margin-top: 4em;
+}
+.meParaOne{
+    width: 60%;
+}
+.meParaTwo{
+    margin-left: 150px;
+    text-align: start;
+}
+.paraTwoText{
+    line-height: 2em;
+    word-spacing: 3px;
+    margin-top: 2em;
+    text-align: center;
+}
+/* tracking-[3px] leading-[2em] mt-[2em] sm:ml-[4em] */
+.twoText{
+    line-height: 2em;
+    word-spacing: 3px;
+    margin-top: 2em;
+}
+.white{
+    color: white;
+}
+@media (max-width: 1480px) {
+    .meParaOne{
+        width: 70%;
+    }
+    .meParaTwo{
+        margin-left: 130px;
+        text-align: start;
+    }
+    
+}
+@media (max-width: 780px) {
+    .meParaOne{
+        width: 60%;
+    }
+    .meParaTwo{
+        margin-left: -10px;
+        text-align: start;
+    }
+    .meContainer .heading{
+        /* text-white text-3xl text-center mt-8 */
+        font-size: 25px;
+    }
+    
+}
+@media (max-width: 480px) {
+    .meParaOne{
+        width: 70%;
+    }
+    .meParaTwo{
+        text-align: start;
+        width: 70%;
+    }
+    .meContainer .heading{
+        /* text-white text-3xl text-center mt-8 */
+        font-size: 20px;
+    }
+    
+}

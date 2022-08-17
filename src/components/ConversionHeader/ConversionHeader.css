@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.ConversionHeaderContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10em;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* background-color: transparent; */
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.conversionLogo_heading span{
+    font-weight: 800;
+}
+.conversionLogo_heading{
+    font-weight: 800;
+}
+.ConversionHeaderContainer_logo h1{
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'ocr';
+    font-size: 4em;
+    color: #CBCFD5;
+}
+
+
+@media (max-width: 780px) {
+    .ConversionHeaderContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 9em;
+        width: 100%;
+        background-color: black;
+        /* background-color: rgb(255, 255, 255); */
+    }
+    .ConversionHeaderContainer_logo h1{
+        font-size: 45px;
+    }
+}
+@media (max-width: 480px) {
+    .ConversionHeaderContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 8em;
+        width: 100%;
+        background-color: black;
+        /* background-color: rgb(255, 255, 255); */
+    }
+    .ConversionHeaderContainer_logo h1{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,87 @@
+.decodeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    color: #7DF842;
+    font-family: 'ocr';
+    font-size: 17px;
+    font-weight: 800;
+    width: 100%;
+}
+.decodeConnect{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+.decodeConnect button{
+    padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #7DF842;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+}
+.disconnectButton button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #7DF842;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+    -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+    -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3); 
+}
+.disconnectButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.NftContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 780px) {
+    .disconnectButton button{
+        width: 150px;
+        height: 50px;
+    }
+}
+@media (max-width: 480px) {
+    .disconnectButton button{
+        width: 120px;
+        height: 50px;
+    }
+    .NftContainer{
+        flex-direction: column;
+    }
+}

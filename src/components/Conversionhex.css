@@ -1,0 +1,124 @@
+.conversionHexContainer{
+    /* mt-[5em] font-ocr text-[#7DF842] text-[17px] w-[70%] sm:w-3/5  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    color: #7DF842;
+    font-family: 'ocr';
+    font-size: 17px;
+    font-weight: 800;
+    width: 100%;
+}
+.conversionHexContainerHeading{
+    /* text-white text-2xl text-center mt-8 mb-[2em] */
+    color: white;
+    margin-top: 2rem;
+}
+.conversionHexContainerPara{
+    /* tracking-[4px] leading-[2em] mt-[2em] */
+    width: 60%;
+    
+}
+.conversionHexContainerPara .para{
+    /* tracking-[3px] leading-[2em] mt-[2em] */
+    line-height: 2em;
+    word-spacing: 3px;
+    margin-top: 2em;
+    text-align: center;
+}
+.conversionHexContainerDialouge{
+    width: 60%;
+}
+.conversionHexContainerDialouge .dialouge{
+    /* tracking-[3px] leading-[2em] mt-[2em] */
+    line-height: 2em;
+    word-spacing: 4px;
+    margin-top: 2em;
+}
+.conversionHexContainer .hexTable{
+    /* flex flex-col justify-around mt-[10em] w-full sm:flex-row */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10em;
+    width: 60%;
+}
+.conversionHexContainer .hexTableTwo{
+    /* flex flex-col justify-around mt-[10em] w-full sm:flex-row */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    width: 60%;
+}
+.tableWidth{
+    /* w-4/5 sm:w-2/5  */
+    width: 40%;
+}
+
+@media (max-width: 780px) {
+    .conversionHexContainerPara{
+        width: 70%;
+    }
+    .conversionHexContainerDialouge{
+    width: 70%;
+    }
+    .conversionHexContainer .hexTable{
+        /* flex flex-col justify-around mt-[10em] w-full sm:flex-row */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10em;
+        width: 100%;
+    }
+    .conversionHexContainer .hexTableTwo{
+        /* flex flex-col justify-around mt-[10em] w-full sm:flex-row */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10em;
+        width: 100%;
+    }
+    .tableWidth{
+        /* w-4/5 sm:w-2/5  */
+        width: 70%;
+        margin-bottom: 2em;
+    }
+}
+@media (max-width: 480px) {
+    .conversionHexContainerPara{
+        width: 70%;
+    }
+    .conversionHexContainerDialouge{
+    width: 70%;
+    }
+    .conversionHexContainer .hexTable{
+        /* flex flex-col justify-around mt-[10em] w-full sm:flex-row */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10em;
+        width: 100%;
+    }
+    .conversionHexContainer .hexTableTwo{
+        /* flex flex-col justify-around mt-[10em] w-full sm:flex-row */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10em;
+        width: 100%;
+    }
+    .tableWidth{
+        /* w-4/5 sm:w-2/5  */
+        width: 90%;
+        margin-bottom: 2em;
+    }
+}

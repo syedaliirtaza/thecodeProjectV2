@@ -1,0 +1,113 @@
+.aboutContainer{
+    /* mt-[8em] font-ocr text-[#7DF842] text-[17px] w-[70%] sm:w-3/5  */
+    /* margin-top: 8em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    color: #7DF842;
+    font-family: 'ocr';
+    font-size: 17px;
+    font-weight: 800;
+}
+.divider{
+    padding: 5em;
+}
+.aboutContainerHeading .heading{
+    /* text-white text-3xl text-center mt-8 */
+    color: white;
+    margin-top: 2rem;
+}
+.aboutContainerPara{
+    /* tracking-[4px] leading-[2em] mt-[2em] */
+    width: 60%;
+    
+}
+.aboutContainerPara .para{
+    line-height: 2em;
+    word-spacing: 3px;
+    margin-top: 2em;
+    text-align: center;
+}
+.aboutContainerDialouge{
+    width: 56%;
+}
+.aboutContainerDialouge .dialouge{
+    /* tracking-[4px] leading-[2em] mt-[2em] */
+    line-height: 2em;
+    word-spacing: 4px;
+    margin-top: 2em;
+}
+.dialouge .conversion{
+cursor: pointer;
+}
+.aboutContainerDialouge .conversion{
+    /* text-white underline decoration-dotted */
+    color: white;
+    text-decoration: dotted;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.aboutContainerImage{
+    /* flex flex-col items-center justify-center mt-[5em] sm:flex-row */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.aboutContainerImage .imageText{
+    /* text-white sm:mt-[-4em] */
+    margin-bottom: 5em;
+}
+.aboutContainerImage .image{
+    /* flex flex-col items-center justify-center mt-[5em] sm:flex-row */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    padding-right: 100px;
+}
+.aboutContainerImage .imageTwo{
+    /* flex flex-col justify-center items-center mt-[-10em] sm:mt-[-18.5em] */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8em;
+}
+@media (max-width: 780px) {
+    .aboutContainerPara{
+        width: 70%;
+    }
+    .aboutContainerDialouge{
+    width: 70%;
+    }
+    .aboutContainerHeading .heading{
+        font-size: 26px;
+    }
+    .aboutContainerImage{
+        flex-direction: column;
+    }
+    .aboutContainerImage .image{
+       margin-left: 120px;
+    }
+}
+@media (max-width: 480px) {
+    .aboutContainerPara{
+        width: 70%;
+    }
+    .aboutContainerDialouge{
+        width: 60%;
+    }
+    .aboutContainerHeading .heading{
+        font-size: 22px;
+    }
+    .aboutContainerImage{
+        flex-direction: column;
+    }
+    .aboutContainerImage .image{
+        margin-left: 110px;
+     }
+}

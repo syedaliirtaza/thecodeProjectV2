@@ -1,0 +1,12 @@
+.mintContainer{
+    /* flex flex-col justify-center items-center */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ocr';
+    font-size: 17px;
+    font-weight: 800;
+    color: #7DF842;
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+svg{
+    color: white;
+}
+.ConversionMobileHeaderContainer_items{
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    background-color: black;
+    width: 60%;
+    height: 100%;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    font-family: 'ocr';
+}
+.ConversionMobileHeaderContainer_items .ConversionMobileItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 25px;
+    color: #7DF842;
+}
+.ConversionMobileHeaderContainer_items .ConversionMobileItems:hover{
+    color: white;
+}
+
+

@@ -1,0 +1,20 @@
+.ConversionHeaderContainer_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 100%;
+    font-family: 'ocr';
+    color: #7DF842;
+}
+ .conversionItems{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #7DF842;
+    text-decoration: none;
+}
+.ConversionHeaderContainer_items .conversionItems:hover{
+    cursor: pointer;
+    color: white;
+}
